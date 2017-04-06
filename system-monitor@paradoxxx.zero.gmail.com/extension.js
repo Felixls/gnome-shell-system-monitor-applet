@@ -1057,9 +1057,9 @@ const Battery = new Lang.Class({
     update_tips: function () {
         let value = Schema.get_boolean(this.elt + '-time');
         if (value) {
-            this.text_items[2].text = this.menu_items[5].text = 'h';
+            this.text_items[2].text = this.menu_items[4].text = 'h';
         } else {
-            this.text_items[2].text = this.menu_items[5].text = '%';
+            this.text_items[2].text = this.menu_items[4].text = '%';
         }
 
         this.update();
@@ -1088,7 +1088,6 @@ const Battery = new Lang.Class({
             new St.Label(),
             new St.Label(),
             new St.Label({style_class: Style.get('sm-value')}),
-            new St.Label(),
             new St.Label({text: '%', style_class: Style.get('sm-label')})];
     },
     destroy: function () {
@@ -1258,7 +1257,6 @@ const Cpu = new Lang.Class({
             new St.Label(),
             new St.Label(),
             new St.Label({style_class: Style.get('sm-value')}),
-            new St.Label(),
             new St.Label({text: '%', style_class: Style.get('sm-label')})];
     }
 });
@@ -1412,7 +1410,6 @@ const Freq = new Lang.Class({
             new St.Label(),
             new St.Label(),
             new St.Label({style_class: Style.get('sm-value')}),
-            new St.Label(),
             new St.Label({text: 'MHz', style_class: Style.get('sm-label')})];
     }
 });
@@ -1487,7 +1484,6 @@ const Mem = new Lang.Class({
             new St.Label(),
             new St.Label({text: '/', style_class: Style.get('sm-label')}),
             new St.Label({style_class: Style.get('sm-value')}),
-            new St.Label(),
             new St.Label({text: _(unit), style_class: Style.get('sm-label')})];
     }
 });
@@ -1717,7 +1713,6 @@ const Swap = new Lang.Class({
             new St.Label(),
             new St.Label({text: '/', style_class: Style.get('sm-label')}),
             new St.Label({style_class: Style.get('sm-value')}),
-            new St.Label(),
             new St.Label({text: _(unit), style_class: Style.get('sm-label')})];
     }
 });
@@ -1761,7 +1756,7 @@ const Thermal = new Lang.Class({
         // this.vals = [this.temperature / 100];
         this.vals = [this.temperature];
         this.tip_vals[0] = this.temperature_text();
-        this.menu_items[5].text = this.temperature_symbol();
+        this.menu_items[4].text = this.temperature_symbol();
         this.tip_unit_labels[0].text = _(this.temperature_symbol());
     },
     create_text_items: function () {
@@ -1773,7 +1768,6 @@ const Thermal = new Lang.Class({
             new St.Label(),
             new St.Label(),
             new St.Label({style_class: Style.get('sm-value')}),
-            new St.Label(),
             new St.Label({text: this.temperature_symbol(), style_class: Style.get('sm-label')})];
     },
     temperature_text: function () {
@@ -1829,7 +1823,6 @@ const Fan = new Lang.Class({
             new St.Label(),
             new St.Label(),
             new St.Label({style_class: Style.get('sm-value')}),
-            new St.Label(),
             new St.Label({text: _('rpm'), style_class: Style.get('sm-label')})];
     }
 });
