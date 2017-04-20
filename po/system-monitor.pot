@@ -1,306 +1,137 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the PACKAGE package.
+# This file is distributed under the same license as the System Monitor package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#: extension.js:751
+#: prefs.js:57 extension.js:784
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
+"Project-Id-Version: System Monitor\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-12-22 15:04+0100\n"
+"POT-Creation-Date: 2017-04-19 23:19-0400\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: \n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Type: text/plain; charset=CHARSET\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: prefs.js:69 prefs.js:90 prefs.js:110 prefs.js:67 prefs.js:87 prefs.js:107
+#: prefs.js:33
+#, javascript-format
+msgid "#%02x%02x%02x%02x"
+msgstr ""
+
+#: prefs.js:71 prefs.js:91 prefs.js:111
 msgid ":"
 msgstr ""
 
-#: prefs.js:161 prefs.js:159
+#: prefs.js:183
 msgid "Display"
 msgstr ""
 
-#: prefs.js:166 prefs.js:164
-msgid "Refresh Time"
-msgstr ""
-
-#: prefs.js:171 prefs.js:169
-msgid "Graph Width"
-msgstr ""
-
-#: prefs.js:176 prefs.js:174
+#: prefs.js:187
 msgid "Show Text"
 msgstr ""
 
-#: prefs.js:184 prefs.js:182
-msgid "Display Style"
-msgstr ""
-
-#: prefs.js:267 prefs.js:274
-msgid "Display Icon"
-msgstr ""
-
-#: prefs.js:276 prefs.js:283
-msgid "Display in the Middle"
-msgstr ""
-
-#: prefs.js:288 prefs.js:306
-msgid "Background Color"
-msgstr ""
-
-#: prefs.js:197 prefs.js:195
-msgid "Display Individual Cores"
-msgstr ""
-
-#: prefs.js:193 prefs.js:191
-msgid "Show network speed in bits"
-msgstr ""
-
-#: prefs.js:205 prefs.js:208
-msgid "Sensor"
-msgstr ""
-
-#: prefs.js:207 prefs.js:210
-msgid "Please install lm-sensors"
-msgstr ""
-
-#: prefs.js:282 prefs.js:300
-msgid "Move the clock"
-msgstr ""
-
-#: prefs.js:286 prefs.js:289
-msgid "Compact Display"
-msgstr ""
-
-#: extension.js:746 extension.js:1117
-msgid "Cpu"
-msgstr ""
-
-msgid "User"
-msgstr ""
-
-msgid "System"
-msgstr ""
-
-msgid "Other"
-msgstr ""
-
-msgid "Nice"
-msgstr ""
-
-msgid "Iowait"
-msgstr ""
-
-#: extension.js:941 extension.js:1378
-msgid "Memory"
-msgstr ""
-
-msgid "Program"
-msgstr ""
-
-msgid "Cache"
-msgstr ""
-
-msgid "Buffer"
-msgstr ""
-
-#: extension.js:1134 extension.js:1598
-msgid "Swap"
-msgstr ""
-
-msgid "Used"
-msgstr ""
-
-#: extension.js:1010 extension.js:1428
-msgid "Net"
-msgstr ""
-
-#: extension.js:1589
-msgid "Up"
-msgstr ""
-
-#: extension.js:1586
-msgid "Down"
-msgstr ""
-
-msgid "Uperrors"
-msgstr ""
-
-msgid "Downerrors"
-msgstr ""
-
-msgid "collisions"
-msgstr ""
-
-msgid "Collisions"
-msgstr ""
-
-#: extension.js:836 extension.js:1264
-msgid "Disk"
-msgstr ""
-
-msgid "Write"
-msgstr ""
-
-msgid "Read"
-msgstr ""
-
-#: extension.js:1182 extension.js:1312 extension.js:1322
-msgid "R"
-msgstr ""
-
-#: extension.js:1185 extension.js:1315 extension.js:1325
-msgid "W"
-msgstr ""
-
-#: prefs.js:185 prefs.js:183
-msgid "graph"
-msgstr ""
-
-#: prefs.js:185 prefs.js:183
-msgid "digit"
-msgstr ""
-
-#: prefs.js:185 prefs.js:183
-msgid "both"
-msgstr ""
-
-msgid "cpu"
-msgstr ""
-
-#: extension.js:811
-msgid "mem"
-msgstr ""
-
-msgid "swap"
-msgstr ""
-
-msgid "net"
-msgstr ""
-
-msgid "disk"
-msgstr ""
-
-#: extension.js:1346 extension.js:1900
-msgid "Preferences..."
-msgstr ""
-
-#: extension.js:1340 extension.js:1894
-msgid "System Monitor..."
-msgstr ""
-
-msgid "System monitor"
-msgstr ""
-
-msgid "user"
-msgstr ""
-
-msgid "system"
-msgstr ""
-
-msgid "other"
-msgstr ""
-
-msgid "nice"
-msgstr ""
-
-msgid "iowait"
-msgstr ""
-
-msgid "program"
-msgstr ""
-
-msgid "cache"
-msgstr ""
-
-msgid "buffer"
-msgstr ""
-
-msgid "used"
-msgstr ""
-
-msgid "up"
-msgstr ""
-
-msgid "down"
-msgstr ""
-
-msgid "uperrors"
-msgstr ""
-
-msgid "downerrors"
-msgstr ""
-
-msgid "write"
-msgstr ""
-
-msgid "read"
-msgstr ""
-
-#: extension.js:167 extension.js:1454 extension.js:1545 extension.js:1554
-#: extension.js:1577 extension.js:1581 extension.js:1585 extension.js:1588
-msgid "KiB/s"
-msgstr ""
-
-#: extension.js:166 extension.js:168 extension.js:1277 extension.js:1321
-#: extension.js:1324 extension.js:1549 extension.js:1558
-msgid "MiB/s"
-msgstr ""
-
-#: extension.js:1419 extension.js:1635
-msgid "MiB"
-msgstr ""
-
-#: extension.js:184
-msgid "kB"
-msgstr ""
-
-#: extension.js:183 extension.js:185
-msgid "MB"
-msgstr ""
-
-#: extension.js:1179 extension.js:1644
-msgid "Thermal"
-msgstr ""
-
-msgid "thermal"
-msgstr ""
-
-#: prefs.js:180 prefs.js:178
+#: prefs.js:191
 msgid "Show In Menu"
 msgstr ""
 
-#: prefs.js:222 prefs.js:229
+#: prefs.js:196
+msgid "Refresh Time"
+msgstr ""
+
+#: prefs.js:201
+msgid "Graph Width"
+msgstr ""
+
+#: prefs.js:206
+msgid "Display Style"
+msgstr ""
+
+#: prefs.js:207
+msgid "digit"
+msgstr ""
+
+#: prefs.js:207
+msgid "graph"
+msgstr ""
+
+#: prefs.js:207
+msgid "both"
+msgstr ""
+
+#: prefs.js:225
+msgid "Sensor"
+msgstr ""
+
+#: prefs.js:227
+msgid "Please install lm-sensors"
+msgstr ""
+
+#: prefs.js:248
+msgid "Show network speed in bits"
+msgstr ""
+
+#: prefs.js:252
+msgid "Display Individual Cores"
+msgstr ""
+
+#: prefs.js:256
 msgid "Show Time Remaining"
 msgstr ""
 
-#: prefs.js:226 prefs.js:233
+#: prefs.js:260
 msgid "Hide System Icon"
 msgstr ""
 
-#: prefs.js:230 prefs.js:237
+#: prefs.js:264
 msgid "Usage Style"
 msgstr ""
 
-#: prefs.js:231 prefs.js:238
+#: prefs.js:265
 msgid "pie"
 msgstr ""
 
-#: prefs.js:231 prefs.js:238
+#: prefs.js:265
 msgid "bar"
 msgstr ""
 
-#: prefs.js:231 prefs.js:238
+#: prefs.js:265
 msgid "none"
 msgstr ""
 
-#: extension.js:68
+#: prefs.js:273
+msgid "Display temperature in Fahrenheit"
+msgstr ""
+
+#: prefs.js:307
+msgid "Display Icon"
+msgstr ""
+
+#: prefs.js:316
+msgid "Display in the Middle"
+msgstr ""
+
+#: prefs.js:322
+msgid "Compact Display"
+msgstr ""
+
+#: prefs.js:327
+msgid "Show tooltip"
+msgstr ""
+
+#: prefs.js:333
+msgid "Move the clock"
+msgstr ""
+
+#: prefs.js:339
+msgid "Background Color"
+msgstr ""
+
+#: extension.js:70
 msgid ""
 "Dependencies Missing\n"
 "Please install: \n"
@@ -311,49 +142,108 @@ msgid ""
 "\t    on openSUSE: typelib-1_0-GTop-2_0, typelib-1_0-NetworkManager-1_0\n"
 msgstr ""
 
-#: extension.js:97 extension.js:255
+#: extension.js:175 extension.js:177 extension.js:1314 extension.js:1367
+#: extension.js:1370 extension.js:1617 extension.js:1625
+msgid "MiB/s"
+msgstr ""
+
+#: extension.js:176 extension.js:1527 extension.js:1614 extension.js:1622
+#: extension.js:1642 extension.js:1646 extension.js:1650 extension.js:1653
+msgid "KiB/s"
+msgstr ""
+
+#: extension.js:192 extension.js:194
+msgid "MB"
+msgstr ""
+
+#: extension.js:193
+msgid "kB"
+msgstr ""
+
+#: extension.js:264
 msgid "System Monitor Extension"
 msgstr ""
 
-#: extension.js:113 extension.js:271
+#: extension.js:280
 msgid "Cancel"
 msgstr ""
 
-#: extension.js:601 extension.js:875
+#: extension.js:844
+msgid "mem"
+msgstr ""
+
+#: extension.js:915 extension.js:920
 msgid "Battery"
 msgstr ""
 
-msgid "battery"
-msgstr ""
-
-#: extension.js:896 extension.js:1334
-msgid "Freq"
-msgstr ""
-
-msgid "freq"
-msgstr ""
-
-#: extension.js:1540 extension.js:1692
-msgid "Fan"
-msgstr ""
-
-msgid "fan"
-msgstr ""
-
-#: extension.js:1542 extension.js:1566 extension.js:1574 extension.js:1698
-#: extension.js:1722 extension.js:1730
-msgid "rpm"
-msgstr ""
-
-#: prefs.js:294
-msgid "Show tooltip"
-msgstr ""
-
-#: extension.js:1097
+#: extension.js:1105
 msgid "CPU"
 msgstr ""
 
-#: prefs.js:267
-msgid "Display temperature in Fahrenheit"
+#: extension.js:1126
+msgid "Cpu"
 msgstr ""
 
+#: extension.js:1303 extension.js:1307
+msgid "Disk"
+msgstr ""
+
+#: extension.js:1358 extension.js:1368
+msgid "R"
+msgstr ""
+
+#: extension.js:1361 extension.js:1371
+msgid "W"
+msgstr ""
+
+#: extension.js:1380 extension.js:1383
+msgid "Freq"
+msgstr ""
+
+#: extension.js:1425 extension.js:1430
+msgid "Memory"
+msgstr ""
+
+#: extension.js:1482
+msgid "MiB"
+msgstr ""
+
+#: extension.js:1484
+msgid "GiB"
+msgstr ""
+
+#: extension.js:1500 extension.js:1505
+msgid "Net"
+msgstr ""
+
+#: extension.js:1651
+msgid "Down"
+msgstr ""
+
+#: extension.js:1654
+msgid "Up"
+msgstr ""
+
+#: extension.js:1663 extension.js:1668
+msgid "Swap"
+msgstr ""
+
+#: extension.js:1730 extension.js:1734
+msgid "Thermal"
+msgstr ""
+
+#: extension.js:1792 extension.js:1796
+msgid "Fan"
+msgstr ""
+
+#: extension.js:1800 extension.js:1825 extension.js:1833
+msgid "rpm"
+msgstr ""
+
+#: extension.js:1997
+msgid "System Monitor..."
+msgstr ""
+
+#: extension.js:2003
+msgid "Preferences..."
+msgstr ""
