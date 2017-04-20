@@ -215,9 +215,8 @@ msgid "MiB"
 msgstr "Mio"
 
 #: extension.js:1484
-#, fuzzy
 msgid "GiB"
-msgstr "Mio"
+msgstr "Gio"
 
 #: extension.js:1500 extension.js:1505
 msgid "Net"
